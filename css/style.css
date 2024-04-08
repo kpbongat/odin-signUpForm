@@ -39,6 +39,7 @@ body {
 form p {
     font-weight: bold;
     font-size: 2rem;
+    width: 70%;
 }
 
 form {
