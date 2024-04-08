@@ -25,4 +25,21 @@ body {
 
 .content {
     flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    display: flex;
+    gap: 100px;
+}
+
+form > div > div {
+    display: flex;
+    flex-direction: column;
 }
