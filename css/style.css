@@ -3,11 +3,6 @@ body {
     display: flex;
 }
 
-h1,
-p {
-    color: white;
-}
-
 .sidebar {
     background-image: url('../images/background-image.jpg');
     background-size: cover;
@@ -17,6 +12,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    color: white;
 }
 
 .logo {
