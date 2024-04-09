@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "norse-bold";
+    src: url("../fonts/Norse-Bold.otf")
+}
+
 body {
     margin: 0;
     display: flex;
@@ -24,6 +29,8 @@ body {
     align-items: center;
     margin-top:30%;
     background-color: rgb(0 0 0 / .30);
+    font-family: "norse-bold";
+    font-size: 5rem;
 }
 
 .content {
