@@ -77,7 +77,7 @@ input[type] {
     font-size: 1rem;
     width:300px;
     height: 2rem;
-    border: 1px solid lightgray;
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
     outline: none;
 }
@@ -87,9 +87,7 @@ input[type]:focus {
     box-shadow: rgb(0 0 0 / .20) 2px 2px 10px;
 }
 
-input[type]:invalid {
-    border-color: red;
-}
+
 
 button {
     background-color: #596D48;
@@ -112,3 +110,4 @@ button {
 .sidebar :visited {
     color: white;
 }
+
