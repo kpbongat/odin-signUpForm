@@ -31,7 +31,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     margin: 50px 50px;
 }
 
@@ -82,4 +82,16 @@ input[type]:focus {
 
 input[type]:invalid {
     border-color: red;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: rgb(0 0 0 / .30) 2px 2px 5px;
 }
